@@ -1,0 +1,1 @@
+print(factor(as.data.frame(women)))

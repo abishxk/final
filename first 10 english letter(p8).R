@@ -1,0 +1,6 @@
+print("First 10 letters in  upper case :")
+print(LETTERS[1:10])
+print("First 10 letters in  lower case :")
+print(letters[1:10])
+print("Letters from 22 and 24 :")
+print(LETTERS[22:24])

@@ -1,0 +1,16 @@
+v1=c(1,2,3)
+v2=c(4,5,6)
+v3=c(7,8,9)
+r=c("a","b","c")
+c=c("a","b","c")
+mat=matrix(c(v1,v2,v3),nrow=3,ncol=3,byrow = TRUE,dimnames = list(r,c))
+print(mat)
+
+v1=c(1,2,3)
+v2=c(4,5,6)
+v3=c(7,8,9)
+r=c("a","b","c")
+c=c("a","b","c")
+mat=matrix(c(v1,v2,v3),nrow=3,ncol=3,byrow = FALSE,dimnames = list(r,c))
+print(mat)
+
